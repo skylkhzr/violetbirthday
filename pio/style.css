@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: violet;
+  }
+  
+  .fireworkDiv{
+	position: fixed;
+	height: 150vh;
+	width: auto;
+	background-color: transparent;
+	z-index: 1;
+  }
+  
+  header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background-color: violet;
+	border-radius: 100px;
+	width: 100%;
+	max-width: 500px;
+	height: 95%;
+	overflow: hidden;
+	text-align: center;
+  }
+  
+  #countdown-title {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	color: #fff;
+  }
+  
+  #countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	font-size: 1.8rem;
+	color: #fff;
+	margin-top: 0px;
+  }
+  
+  .countdown-unit {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .countdown-num {
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .countdown-text {
+	justify-content: center;
+	align-items: center;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+  }
+  
+  #lyrics span.highlight {
+	background-color: yellow;
+  }
+  
